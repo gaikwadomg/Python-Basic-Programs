@@ -1,0 +1,88 @@
+Know any wify password from computer using >>>>
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\OM\Desktop> netsh wlan show profile
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : Omg2 2
+    All User Profile     : OPPO A77
+    All User Profile     : Sachin
+    All User Profile     : vivo Y73 2
+    All User Profile     : Redmi Note 9 Pro
+    All User Profile     : Galaxy M01 Core4678
+    All User Profile     : vivo Y73
+    All User Profile     : Omg2
+    All User Profile     : Realme Narzo 20
+    All User Profile     : vivo 1820
+    All User Profile     : Omg
+    All User Profile     : Omg 2
+    All User Profile     : realme X7 Max
+    All User Profile     : KK
+    All User Profile     : iQOO9
+    All User Profile     : Alok
+    All User Profile     : vivo V20 2021pro
+    All User Profile     : From Om
+    All User Profile     : Redmi 9 Prime
+    All User Profile     : Shiv krupa 1
+    All User Profile     : Bhagyesh's Galaxy M32l
+    All User Profile     : vivo Y12G
+    All User Profile     : SAKSHI??
+
+PS C:\Users\OM\Desktop> netsh wlan show profile name="OPPO A77" key=clear
+
+Profile OPPO A77 on interface Wi-Fi:
+=======================================================================
+
+Applied: All User Profile
+
+Profile information
+-------------------
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : OPPO A77
+    Control options        :
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings
+---------------------
+    Number of SSIDs        : 1
+    SSID name              : "OPPO A77"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings
+-----------------
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Security key           : Present
+    Key Content            : 123456789
+
+Cost settings
+-------------
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+PS C:\Users\OM\Desktop>
